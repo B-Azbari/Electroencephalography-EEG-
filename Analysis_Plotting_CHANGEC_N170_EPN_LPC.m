@@ -36,7 +36,7 @@ plot([0 0],[-20 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-15 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 erp_C_A_F_PO9 = plot(EEG.times, erp_C_A_F(36,:), '--r','linewidth',2) % plot ERP for A to F
@@ -51,7 +51,7 @@ plot([0 0],[-20 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-15 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 erp_C_A_F_PO10  = plot(EEG.times, erp_C_A_F(40,:), '--k','linewidth',2) % plot ERP for A to F
@@ -78,7 +78,7 @@ xlim([-100 1000]);
 ylim([-6 2]);
 plot([0 0],[-6 2],'k'); % vertical line at 0 ms
 plot([-100 1200],[0 0],'k'); % horizontal line at 0 ms
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_C_A_F_Angry_PO10  = plot(EEG.times,mean(erp_C_A_F_Angry(40,:,:),3), 'r','linewidth',1.5);
@@ -130,7 +130,7 @@ plot([0 0],[-20 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-15 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_C_A_F_P9 = plot(EEG.times,(mean(erp_C_A_F_Neutral(46,:,:),3)+mean(erp_C_A_F_Angry(46,:,:),3)+mean(erp_C_A_F_Happy(46,:,:),3)/3),'r','linewidth',2); 
@@ -145,7 +145,7 @@ plot([0 0],[-20 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-15 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_C_A_F_P10 = plot(EEG.times,(mean(erp_C_A_F_Neutral(47,:,:),3)+mean(erp_C_A_F_Angry(47,:,:),3)+mean(erp_C_A_F_Happy(47,:,:),3)/3),'r','linewidth',2); 
@@ -160,7 +160,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P9 = plot(EEG.times,(mean(erp_C_A_F_Neutral(46,:,:),3)+mean(erp_C_F_A_Neutral(46,:,:),3)/2),'r','linewidth',2); 
@@ -177,7 +177,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P10 = plot(EEG.times,(mean(erp_C_A_F_Neutral(47,:,:),3)+mean(erp_C_F_A_Neutral(46,:,:),3)/2),'r','linewidth',2); 
@@ -197,7 +197,7 @@ plot([0 0],[-5 5],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-5 5]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_T7 = plot(EEG.times,(mean(erp_C_A_F_Neutral(16,:,:),3)+mean(erp_C_F_A_Neutral(16,:,:),3)/2),'r','linewidth',1.5); 
@@ -214,7 +214,7 @@ plot([0 0],[-5 5],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-5 5]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_T8 = plot(EEG.times,(mean(erp_C_A_F_Neutral(20,:,:),3)+mean(erp_C_F_A_Neutral(20,:,:),3)/2),'r','linewidth',1.5); 
@@ -236,7 +236,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_T7 = plot(EEG.times,(mean(erp_C_A_F_Neutral(16,:,:),3)+mean(erp_C_F_A_Neutral(16,:,:),3)/2),'r','linewidth',2); 
@@ -253,7 +253,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P7 = plot(EEG.times,(mean(erp_C_A_F_Neutral(26,:,:),3)+mean(erp_C_F_A_Neutral(26,:,:),3)/2),'r','linewidth',2); 
@@ -270,7 +270,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_PO7 = plot(EEG.times,(mean(erp_C_A_F_Neutral(33,:,:),3)+mean(erp_C_F_A_Neutral(33,:,:),3)/2),'r','linewidth',2); 
@@ -287,7 +287,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P9 = plot(EEG.times,(mean(erp_C_A_F_Neutral(25,:,:),3)+mean(erp_C_F_A_Neutral(25,:,:),3)/2),'r','linewidth',2); 
@@ -304,7 +304,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_PO9 = plot(EEG.times,(mean(erp_C_A_F_Neutral(32,:,:),3)+mean(erp_C_F_A_Neutral(32,:,:),3)/2),'r','linewidth',2); 
@@ -321,7 +321,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_T8 = plot(EEG.times,(mean(erp_C_A_F_Neutral(20,:,:),3)+mean(erp_C_F_A_Neutral(20,:,:),3)/2),'r','linewidth',2); 
@@ -338,7 +338,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P8 = plot(EEG.times,(mean(erp_C_A_F_Neutral(30,:,:),3)+mean(erp_C_F_A_Neutral(30,:,:),3)/2),'r','linewidth',2); 
@@ -355,7 +355,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_PO8 = plot(EEG.times,(mean(erp_C_A_F_Neutral(34,:,:),3)+mean(erp_C_F_A_Neutral(34,:,:),3)/2),'r','linewidth',2); 
@@ -372,7 +372,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P10 = plot(EEG.times,(mean(erp_C_A_F_Neutral(31,:,:),3)+mean(erp_C_F_A_Neutral(31,:,:),3)/2),'r','linewidth',2); 
@@ -390,7 +390,7 @@ plot([0 0],[-8 8],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-8 8]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_PO10 = plot(EEG.times,(mean(erp_C_A_F_Neutral(35,:,:),3)+mean(erp_C_F_A_Neutral(35,:,:),3)/2),'r','linewidth',2); 
@@ -418,7 +418,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-4.5 2]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 plot([350 350],[-10 10],'k:'); % vertical line at 0 ms
 plot([400 400],[-10 10],'k:'); % vertical line at 0 ms
@@ -440,7 +440,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-4.5 2]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 plot([350 350],[-10 10],'k:'); % vertical line at 0 ms
 plot([400 400],[-10 10],'k:'); % vertical line at 0 ms
@@ -459,7 +459,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P3 = plot(EEG.times,(mean(erp_C_A_F_Neutral(27,:,:),3)+mean(erp_C_F_A_Neutral(27,:,:),3)/2),'r','linewidth',2); 
@@ -476,7 +476,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_Pz = plot(times,(mean(erp_C_F_A_Neutral(28,:,:),3)+mean(erp_C_A_F_Neutral(28,:,:),3)/2),'r','linewidth',2); 
@@ -493,7 +493,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_P4 = plot(times,(mean(erp_C_F_A_Neutral(29,:,:),3)+mean(erp_C_A_F_Neutral(29,:,:),3)/2),'r','linewidth',2); 
@@ -510,7 +510,7 @@ legend([p_Neutral_P4 p_Angry_P4 p_Happy_P4],{'neutral','angry', 'happy'},'box','
 %plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 %xlim([-100 1000]);
 %ylim([-10 10]);
-%ylabel('ERP [µV]');
+%ylabel('ERP [ÂµV]');
 %box on
 
 %p_Neutral_POz = plot(EEG.times,(mean(erp_C_A_F_Neutral(38,:,:),3)+mean(erp_C_F_A_Neutral(38,:,:),3)/2),'r','linewidth',2); 
@@ -527,7 +527,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_CP1 = plot(times,(mean(erp_C_F_A_Neutral(22,:,:),3)+mean(erp_C_A_F_Neutral(22,:,:),3)/2),'r','linewidth',2); 
@@ -544,7 +544,7 @@ plot([0 0],[-10 10],'k'); % vertical line at 0 ms
 plot([-100 1000],[0 0],'k'); % horizontal line at 0 ms
 xlim([-100 1000]);
 ylim([-10 10]);
-ylabel('ERP [µV]');
+ylabel('ERP [ÂµV]');
 box on
 
 p_Neutral_CP2 = plot(times,(mean(erp_C_F_A_Neutral(23,:,:),3)+mean(erp_C_A_F_Neutral(23,:,:),3)/2),'r','linewidth',2); 
