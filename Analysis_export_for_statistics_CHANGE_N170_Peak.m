@@ -1,5 +1,5 @@
 %% ANOVA preparation N170 CHANGE
-% Shadi 01.06.2020
+
 
 % This script is about preparing the eeg-data for further statistical
 % analysis in R. Here a .txt with all relevant amplitudes will be created
