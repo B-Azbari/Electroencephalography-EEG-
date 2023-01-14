@@ -1,8 +1,4 @@
-%% PLOTs (Change / Second Picture)
-% ICON
-% Charlotte J. Lion
-% 05.12.2016
-% Edited by Shadi 24.10.2019
+%% PLOTs 
 
 % This script can serve as a framework for designing some plots, especially for changing condition: 
 % included in this script: grand-average ERP, EPN, LPC, various electrodes
