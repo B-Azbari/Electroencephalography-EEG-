@@ -1,8 +1,5 @@
 %% Creating Parenthood.mat (extracting and naming epochs)
-% Last Update: 01.11.2019
 
-% This script is about extracting and naming epochs and saving them in a
-% data-set to make further analysis easier
 cd('O:\Parenting Study\Parenting EEG\Parenthood_EyeContact\Analysis')
 
 clear
