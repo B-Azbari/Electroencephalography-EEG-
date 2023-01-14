@@ -1,11 +1,3 @@
-%% ALL SUBJECTS: Preprocessing and Epoching
-% Parenthood_eyegaze
-% Shadi & Tilman & Lisa (15/11/2017)
-% Last Update: 27.09.2019
-
-% This script is about preprocessing and epoching of the Praenthood_eyegaze Rawdata,
-% leading to .set Data in the end, which then can be used for ERP analysis.
-
 % cd('O:/Parenting Study/Parenting EEG/Parenthood_EyeContact/Analysis')
 
 clear
