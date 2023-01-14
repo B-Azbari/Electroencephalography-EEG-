@@ -1,6 +1,6 @@
 %% Difference maps and Topoplots
 % Parenthood Study
-% Shadi 01.02.2020
+
 
 % This script is about creating difference maps and displaying topoplots
 % save plots manually in the end
