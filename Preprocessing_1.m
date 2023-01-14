@@ -15,7 +15,7 @@ run('O:/Parenting Study/Parenting EEG/Parenthood_EyeContact/Analysis/eeglab_corr
 
 
 %% PATHs
-% Shadi´s Laptop:
+% ShadiÂ´s Laptop:
 % FOLDERPATH  = '/Volumes/bio/daten/Parenting Study/Parenting EEG/Parenthood_EyeContact/rawdata/EEG/';
 % BESAfile = '/Volumes/bio/daten/Shadi/Brain-Vision/Parenthood.elp';
 % SAVEFILEPATH = '/Volumes/bio/daten/Parenting Study/Parenting EEG/Parenthood_EyeContact/Analysis/preprocessed_data/set_files/';
