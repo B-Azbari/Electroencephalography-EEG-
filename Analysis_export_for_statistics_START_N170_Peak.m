@@ -1,8 +1,4 @@
 p%% ANOVA preparation N170 START
-% Shadi 01.06.2020
-
-% This script is about preparing the eeg-data for further statistical
-% analysis in R. Here a .txt with all relevant amplitudes will be created
 
 % Peak detection is done within subjects separated for all conditions for
 % PO8 electrode
