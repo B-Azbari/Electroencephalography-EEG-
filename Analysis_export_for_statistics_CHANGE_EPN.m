@@ -1,7 +1,4 @@
 % ANOVA preparation EPN_Mean Amplitude
-% Sh, June 2020
-% adpated from: ICON Charlotte J. Lion, 11.11.2016, ICON2 Tilman, 05.2020
-
 % This script is about preparing the eeg-data for further statistical
 % analysis in R. Here a .txt with all relevant amplitudes will be created
 
